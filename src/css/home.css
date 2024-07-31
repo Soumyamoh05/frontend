@@ -1,0 +1,108 @@
+*
+{
+    margin : 0px;
+    padding : 0px;
+}
+.grid-box
+{
+    display : grid;
+    background-color: #cdc3b6;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap : 0px 0px;
+}
+.gridbox-item1
+{
+    grid-area : 1/1/1/1;
+}
+.homepage
+{
+    margin-top : 5vh;
+    margin-left : 5vw;
+}
+.gridbox-item2
+{
+    grid-area: 1/2/1/2;
+    text-align: right;
+    margin-top : 2vh;
+    margin-right : 7vw;
+}
+.profile
+{
+    height : 30px;
+    width : 30px;
+    border : 1px solid black;
+    border-radius: 50%;
+}
+.heading1
+{
+    padding-top: 12vh;
+    color : rgb(4, 54, 4);
+    text-align: center;
+    font-size : 40px;
+    padding-right: 10px;
+}
+.heading2
+{
+    color : rgb(4, 54, 4);
+    text-align: center;
+    font-size : 40px;
+}
+.gridbox-item3
+{
+    grid-area : 2/1/2/1;
+    margin-left : 6vw;
+}
+.gridbox-item4
+{
+    grid-area : 2/2/2/2;
+    margin-right : 6vw;
+}
+.image1
+{
+    float : right;
+    height : 70vh;
+}
+.div
+{
+    margin-left: 5vw;
+}
+.table
+{
+    display : grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto auto auto auto;
+    width : 90vw;
+    margin : 5vh 5vw 5vh 0vw;
+    border : 2px solid grey;
+    text-align: center;
+}
+.tr
+{
+    height : 20vh;
+}
+.td
+{
+    padding : 10px;
+    height : 30vh;
+    border : 1px solid grey;
+    text-align: center;
+}
+.pagination
+{
+    display :flex;
+    justify-content: flex-end;
+    margin : 5vw;
+}
+.button
+{
+    font-size : 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    margin-left : 10px;
+    background-color: #cdc3b6;
+    border : none;
+    padding : 10px;
+    border-radius: 10px;
+}
