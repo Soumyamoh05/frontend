@@ -44,7 +44,7 @@ function SigninContent()
     const [goToNext , setGoToNext] = useState(false);
     if (goToNext)
     {
-        return <Navigate to = "/profile" />
+        return <Navigate to = "/home" />
     }
     const handleSigin = (e) =>
     {
